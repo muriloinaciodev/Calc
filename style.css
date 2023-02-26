@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    background-color: white;
+}
+
+h1 {
+    background-color: #485464;
+    color: white;
+    font-family: monospace;
+    margin: 0px;
+    padding: 5px;
+    text-indent: 10px;
+}
+
+div#output {
+    font-family: 'Open Sans';
+    text-align: right;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div#primary {
+    height: 50px;
+    line-height: 50px;
+    font-size: 2.2em;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+div#secondary {
+    height: 18px;
+    padding-right: 10px; 
+    font-size: 0.8em;
+    margin-top: 10px;
+}
+
+div#calc {
+    background-color: whitesmoke;
+    width: 269px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 10px black;
+}
+
+div#keyboard {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 3px;
+    padding: 10px;
+}
+
+button {
+    width: 60px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2em;
+    font-family: 'Open Sans';
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+button#backspace {
+    background-color: white;
+    background-image: url("images/backspace.png");
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    background-position: center;
+
+}

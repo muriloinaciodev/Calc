@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calc">
+        <h1>Calculadora</h1>
+    <div id="output">
+        <div id="secondary">250&times;</div>
+        <div id="primary">98.765.432.101</div>
+    </div>
+    <div id="keyboard">
+        <!-- line 1-->
+        <button onclick="btnClick('CE')">CE</button>
+        <button onclick="btnClick('C')">C</button>
+        <button onclick="btnClick('backspace')" id="backspace"></button>
+        <button onclick="btnClick('/')">&div;</button>
+
+        <!-- line 2-->
+        <button onclick="btnClick(7)">7</button>
+        <button onclick="btnClick(8)">8</button>
+        <button onclick="btnClick(9)">9</button>
+        <button onclick="btnClick('*')">&times;</button>
+
+        <!-- line 3-->
+        <button onclick="btnClick(4)">4</button>
+        <button onclick="btnClick(5)">5</button>
+        <button onclick="btnClick(6)">6</button>
+        <button onclick="btnClick('-')">-</button>
+
+        <!-- line 4-->
+        <button onclick="btnClick(1)">1</button>
+        <button onclick="btnClick(2)">2</button>
+        <button onclick="btnClick(3)">3</button>
+        <button onclick="btnClick('+')">+</button>
+
+        <!-- line 5-->
+        <button onclick="btnClick('+/-')">+/-</button>
+        <button onclick="btnClick(0)">0</button>  
+        <button onclick="btnClick(',')">,</button>
+        <button style="background-color: #045c9c; color: white;">=</button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
